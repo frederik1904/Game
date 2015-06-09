@@ -12,9 +12,7 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
-  <rooms name="rooms">
-    <room>rooms\First_Round</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
