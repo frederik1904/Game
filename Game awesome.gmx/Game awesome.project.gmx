@@ -16,8 +16,6 @@
     <object>objects\oMan_cube</object>
     <object>objects\oCube</object>
   </objects>
-  <timelines name="timelines"/>
-  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
