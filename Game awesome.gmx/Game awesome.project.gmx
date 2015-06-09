@@ -13,8 +13,8 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\oMan_cube</object>
-    <object>objects\oCube</object>
+    <object>objects\object1</object>
+    <object>objects\object2</object>
   </objects>
   <help>
     <rtf>help.rtf</rtf>
