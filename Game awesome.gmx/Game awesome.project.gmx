@@ -15,7 +15,6 @@
   <objects name="objects">
     <object>objects\oCube_man</object>
   </objects>
-  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
