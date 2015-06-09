@@ -8,7 +8,11 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+<<<<<<< HEAD
     <event eventtype="3" enumb="0">
+=======
+    <event eventtype="0" enumb="0">
+>>>>>>> origin/master
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,7 +29,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
+<<<<<<< HEAD
             <string>//code starts here
+=======
+            <string>var kage;
+var er;
+var godt;
+>>>>>>> origin/master
 </string>
           </argument>
         </arguments>
