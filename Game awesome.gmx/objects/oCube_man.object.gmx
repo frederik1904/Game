@@ -82,7 +82,7 @@ x += hsp;
 //Colission Vertical
 if (place_meeting(x,y+vsp,oCollision))
 {
-    while(!place_meeting(y+sign(vsp),x,oCollision))
+    while(!place_meeting(x,y+sign(vsp),oCollision))
     {
         y += sign(vsp);
     }
