@@ -32,7 +32,6 @@
     <font>fonts\fnt_Console</font>
   </fonts>
   <objects name="objects">
-    <object>objects\object1</object>
     <object>objects\oCube_man</object>
     <object>objects\obj_Console</object>
     <object>objects\oCollision</object>
