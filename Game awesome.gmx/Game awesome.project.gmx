@@ -12,6 +12,7 @@
     <sprite>sprites\Cube_man</sprite>
     <sprite>sprites\sCollision</sprite>
     <sprite>sprites\Cube_bullet</sprite>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -36,6 +37,7 @@
     <object>objects\obj_Console</object>
     <object>objects\oCollision</object>
     <object>objects\oCube_bulllet</object>
+    <object>objects\oEnemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Demo</room>

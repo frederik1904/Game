@@ -3,10 +3,10 @@
   <caption></caption>
   <width>640</width>
   <height>480</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>16757606</colour>
   <showcolour>-1</showcolour>
@@ -51,11 +51,76 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oCube_man" x="64" y="224" name="inst_EDAE4F38" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="oCollision" x="0" y="288" name="inst_D2423656" locked="0" code="" scaleX="70" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_Console" x="0" y="0" name="inst_121FE9DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="320" y="192" name="inst_0F78404B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="oCollision" x="0" y="448" name="inst_5DDBAF32" locked="0" code="" scaleX="84" scaleY="2" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="oEnemy" x="352" y="128" name="inst_1AC4924A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="256" name="inst_F0DBFF10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="16" y="256" name="inst_9BC499DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="32" y="256" name="inst_79440EE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="16" y="256" name="inst_EF332ED6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="32" y="256" name="inst_A70621F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="48" y="256" name="inst_34063E2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="64" y="256" name="inst_21EF9308" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="80" y="256" name="inst_ECFB3AA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="96" y="256" name="inst_191B5A72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="112" y="256" name="inst_6904DEC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="128" y="256" name="inst_1A590207" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="144" y="256" name="inst_98C6946E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="160" y="256" name="inst_AE7C6EBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="176" y="256" name="inst_E0644582" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="192" y="256" name="inst_275CED1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="208" y="256" name="inst_05BAA782" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="224" y="256" name="inst_BC013BFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="240" y="256" name="inst_09291302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="256" y="256" name="inst_656BCA69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="272" y="256" name="inst_52E7DC68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="288" y="256" name="inst_4E19E4C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="304" y="256" name="inst_CABA2B85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="320" y="256" name="inst_68FA316C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="336" y="256" name="inst_6FFDEFAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="352" y="256" name="inst_07A8F76B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="352" y="256" name="inst_0E1AFAB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="368" y="256" name="inst_B77B9124" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="384" y="256" name="inst_8F706786" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="400" y="256" name="inst_37755C4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="416" y="256" name="inst_5D3F82F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="432" y="256" name="inst_33ED7592" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="448" y="256" name="inst_A6D5A75B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="256" name="inst_6B56264F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCube_man" x="48" y="208" name="inst_F5BCD822" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="240" name="inst_7B6C45ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="224" name="inst_4378B685" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="208" name="inst_8271D2F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="192" name="inst_1BAD7BCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="176" name="inst_20B4E10A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="160" name="inst_87AA3AB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="144" name="inst_B1A87565" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="128" name="inst_3F46776C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="112" name="inst_AE711E06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="96" name="inst_07456935" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="80" name="inst_2A9E38ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="64" name="inst_AD53747F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="48" name="inst_DCB6BDEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="0" y="32" name="inst_93D92E5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="240" name="inst_7EA49253" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="224" name="inst_51185062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="208" name="inst_23B5F35E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="192" name="inst_C6C5865D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="176" name="inst_AEAEAD34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="160" name="inst_7CEBFD03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="144" name="inst_C1990288" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="128" name="inst_63D73143" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="112" name="inst_E5EB11E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="112" name="inst_5D3CD459" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="96" name="inst_26508CCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="80" name="inst_C2495A3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="64" name="inst_073B6018" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="48" name="inst_BF7F8958" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCollision" x="464" y="32" name="inst_76CFDC17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> origin/master
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

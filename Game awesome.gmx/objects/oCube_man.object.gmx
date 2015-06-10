@@ -26,11 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>///skabelses beretningen!
-grav = 0.3
+grav = 0.12
 hsp = 0;
 vsp = 0;
-jumpspeed = 10;
-movespeed = 4;
+jumpspeed = 5;
+movespeed = 3;
 
 </string>
           </argument>
@@ -68,7 +68,10 @@ if (place_meeting(x,y+1,oCollision))
 {
     vsp = key_jump * -jumpspeed
 }
-
+if (place_meeting(x,y+5,oEnemy))
+{
+    vsp = -jumpspeed/1.5
+}
 
 //Colission Horizontal
 if (place_meeting(x+hsp,y,oCollision))
@@ -79,6 +82,15 @@ if (place_meeting(x+hsp,y,oCollision))
     }
     hsp = 0;
 }
+if (place_meeting(x+hsp,y,oEnemy))
+{
+    while(!place_meeting(x+sign(hsp),y,oEnemy))
+    {
+        x += sign(hsp);
+    }
+    hsp = 0;
+}
+
 x += hsp;
 //Colission Vertical
 if (place_meeting(x,y+vsp,oCollision))
