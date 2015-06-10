@@ -10,6 +10,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\Cube_man</sprite>
+    <sprite>sprites\sCollision</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -32,6 +33,7 @@
     <object>objects\object1</object>
     <object>objects\oCube_man</object>
     <object>objects\obj_Console</object>
+    <object>objects\oCollision</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Demo</room>
