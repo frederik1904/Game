@@ -3,7 +3,10 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\DeveloperConsole</extension>
+    <extension index="1">extensions\EZ Multiplayer</extension>
+  </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\Cube_man</sprite>
@@ -12,10 +15,27 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Console">
+      <script>scripts\console_init.gml</script>
+      <script>scripts\console_step.gml</script>
+      <script>scripts\console_draw.gml</script>
+      <script>scripts\console_toggle.gml</script>
+      <script>scripts\console_destroy.gml</script>
+      <script>scripts\console_commands.gml</script>
+    </scripts>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_Console</font>
+  </fonts>
   <objects name="objects">
     <object>objects\object1</object>
-    <object>objects\object2</object>
+    <object>objects\oCube_man</object>
+    <object>objects\obj_Console</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\room_Demo</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
