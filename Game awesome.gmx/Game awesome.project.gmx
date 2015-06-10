@@ -37,7 +37,7 @@
     <object>objects\oCube_bulllet</object>
     <object>objects\oBold</object>
     <object>objects\oScore</object>
-    <object>objects\object6</object>
+    <object>objects\oVaatu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
