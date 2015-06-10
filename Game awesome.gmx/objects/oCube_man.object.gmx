@@ -119,12 +119,22 @@ y += vsp;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>key_shoot = keyboard_check_pressed(ord("F"));
+            <string>key_shoot = mouse_check_button_pressed(mb_left);
 if (key_shoot = 1)
 {
+    
     bullet = instance_create(x,y,oCube_bulllet);
-    bullet.direction = image_angle;
-    bullet.image_angle = image_angle;
+    if (mouse_x != x)
+    {
+        a = mouse_y - y; b = mouse_x - x; c = sqrt(sqr(a) + sqr(b));
+        cosa = (sqr(b) + sqr(c) - sqr(a))/(2 * b * c);
+        if(mouse_y &gt; y) vinkela = -radtodeg(arccos(cosa));
+        else vinkela = radtodeg(arccos(cosa));
+           
+    }
+    else vinkela = 0;
+    bullet.direction = vinkela;
+    bullet.image_angle = mouse_y;
     bullet.speed = 7;
 }
 
