@@ -11,11 +11,7 @@
   <sprites name="sprites">
     <sprite>sprites\Cube_man</sprite>
     <sprite>sprites\sCollision</sprite>
-<<<<<<< HEAD
     <sprite>sprites\Cube_bullet</sprite>
-=======
-    <sprite>sprites\sEnemy</sprite>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -39,11 +35,7 @@
     <object>objects\oCube_man</object>
     <object>objects\obj_Console</object>
     <object>objects\oCollision</object>
-<<<<<<< HEAD
     <object>objects\oCube_bulllet</object>
-=======
-    <object>objects\oEnemy</object>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Demo</room>

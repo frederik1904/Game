@@ -109,8 +109,8 @@ y += vsp;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>key_shoot = keyboard_check_pressed(ord("F");
-if(ket_shoot = 1)
+            <string>key_shoot = keyboard_check_pressed(ord("F"));
+if (key_shoot = 1)
 {
     instance_create(x,y,oCube_bulllet);
 }
