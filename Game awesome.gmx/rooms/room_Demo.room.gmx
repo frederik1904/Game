@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_Console" x="0" y="0" name="inst_121FE9DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="&lt;undefined&gt;" x="320" y="192" name="inst_0F78404B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
 <<<<<<< HEAD
     <instance objName="oCollision" x="0" y="448" name="inst_5DDBAF32" locked="0" code="" scaleX="84" scaleY="2" colour="4294967295" rotation="0"/>
@@ -121,6 +122,9 @@
     <instance objName="oCollision" x="464" y="48" name="inst_BF7F8958" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCollision" x="464" y="32" name="inst_76CFDC17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
 >>>>>>> origin/master
+=======
+    <instance objName="oEnemy" x="320" y="192" name="inst_0F78404B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> parent of 08d3709... Ekstras
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
