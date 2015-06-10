@@ -48,7 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>speed = max(speed-0.1, 0);
+</string>
           </argument>
         </arguments>
       </action>

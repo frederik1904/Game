@@ -35,6 +35,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Demo</room>
+    <room>rooms\rStart</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
