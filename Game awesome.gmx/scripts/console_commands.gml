@@ -22,4 +22,3 @@ if cmd = "game_end" then game_end();
 if cmd = "game_restart" then game_restart();
 
 if cmd = "room_speed" && n = 1 then room_speed = real(a[1]);
-
