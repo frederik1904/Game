@@ -64,6 +64,9 @@ move = key_left + key_right;
 hsp = move * movespeed;
 if (vsp &lt; 10) vsp += grav;
 
+if(move = -1) image_xscale = -1;
+else if (move = 1) image_xscale = 1;
+
 if (place_meeting(x,y+1,oCollision))
 {
     vsp = key_jump * -jumpspeed
@@ -122,8 +125,8 @@ y += vsp;
             <string>key_shoot = mouse_check_button_pressed(mb_left);
 if (key_shoot = 1)
 {
-    
-    bullet = instance_create(x + 21,y + 7,oCube_bulllet);
+    if(image_xscale = 1) bullet = instance_create(x + 21,y + 7,oCube_bulllet);
+    else bullet = instance_create(x - 21,y + 7,oCube_bulllet);
     if (mouse_x != x)
     {
         a = mouse_y - y; b = mouse_x - x; c = sqrt(sqr(a) + sqr(b));
@@ -135,7 +138,9 @@ if (key_shoot = 1)
     else vinkela = 0;
     bullet.direction = vinkela;
     bullet.image_angle = mouse_y;
-    bullet.speed = 7;
+    bullet.speed = 14;
+//    bullet.hsp = 7;
+//    bullet.vsp = 7;
 }
 
 </string>

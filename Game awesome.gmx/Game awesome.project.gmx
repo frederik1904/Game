@@ -38,6 +38,7 @@
     <object>objects\oBold</object>
     <object>objects\oScore</object>
     <object>objects\oVaatu</object>
+    <object>objects\object7</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
