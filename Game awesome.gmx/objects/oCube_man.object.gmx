@@ -125,8 +125,8 @@ y += vsp;
             <string>key_shoot = mouse_check_button_pressed(mb_left);
 if (key_shoot = 1)
 {
-    if(image_xscale = 1) bullet = instance_create(x + 21,y + 7,oCube_bulllet);
-    else bullet = instance_create(x - 21,y + 7,oCube_bulllet);
+    if(image_xscale = 1) bullet = instance_create(x + 13,y + 9,oCube_bulllet);
+    else bullet = instance_create(x - 13,y + 9,oCube_bulllet);
     if (mouse_x != x)
     {
         a = mouse_y - y; b = mouse_x - x; c = sqrt(sqr(a) + sqr(b));
