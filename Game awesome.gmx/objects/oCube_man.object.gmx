@@ -126,9 +126,9 @@ y += vsp;
 if (key_shoot = 1)
 {
     bullet = instance_create(x,y,oCube_bulllet);
-bullet.direction = image_angle;
-bullet.image_angle = image_angle;
-bullet.speed = 7;
+    bullet.direction = image_angle;
+    bullet.image_angle = image_angle;
+    bullet.speed = 7;
 }
 
 </string>
