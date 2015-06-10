@@ -34,7 +34,7 @@
     <object>objects\obj_Console</object>
     <object>objects\oCollision</object>
     <object>objects\oCube_bulllet</object>
-    <object>objects\oEnemy</object>
+    <object>objects\oBold</object>
     <object>objects\oScore</object>
   </objects>
   <rooms name="rooms">

@@ -68,10 +68,7 @@ if (place_meeting(x,y+1,oCollision))
 {
     vsp = key_jump * -jumpspeed
 }
-if (place_meeting(x,y+5,oEnemy))
-{
-    vsp = -jumpspeed/1.5
-}
+
 
 //Colission Horizontal
 if (place_meeting(x+hsp,y,oCollision))
@@ -82,15 +79,15 @@ if (place_meeting(x+hsp,y,oCollision))
     }
     hsp = 0;
 }
-if (place_meeting(x+hsp,y,oEnemy))
+/*if (place_meeting(x+hsp,y,oBold))
 {
-    while(!place_meeting(x+sign(hsp),y,oEnemy))
+    while(!place_meeting(x+sign(hsp),y,oBold))
     {
         x += sign(hsp);
     }
     hsp = 0;
 }
-
+*/
 x += hsp;
 //Colission Vertical
 if (place_meeting(x,y+vsp,oCollision))
