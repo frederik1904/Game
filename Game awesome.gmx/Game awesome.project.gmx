@@ -13,6 +13,7 @@
     <sprite>sprites\sCollision</sprite>
     <sprite>sprites\Cube_bullet</sprite>
     <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\vaatu</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -36,6 +37,7 @@
     <object>objects\oCube_bulllet</object>
     <object>objects\oBold</object>
     <object>objects\oScore</object>
+    <object>objects\object6</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
