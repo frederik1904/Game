@@ -15,6 +15,8 @@
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\vaatu</sprite>
     <sprite>sprites\sPlatform</sprite>
+    <sprite>sprites\sHook</sprite>
+    <sprite>sprites\sHookchain</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -40,9 +42,11 @@
     <object>objects\oScore</object>
     <object>objects\oVaatu</object>
     <object>objects\oPlatform</object>
+    <object>objects\oHook</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
+    <room>rooms\Hook_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
