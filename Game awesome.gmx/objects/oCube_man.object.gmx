@@ -175,10 +175,12 @@ if (key_shoot = 1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(y &lt; other.y)
-{
-    vsp = 0; y = other.y - (oPlatform.sprite_height / 2 + 1);
-}
+            <string>if (y &lt; oPlatform.y) vsp = 0;
+    
+    
+    
+    
+    
 </string>
           </argument>
         </arguments>
