@@ -31,7 +31,7 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 5;
 movespeed = 3;
-
+key_down = 0;
 </string>
           </argument>
         </arguments>
@@ -58,6 +58,7 @@ movespeed = 3;
 key_right = keyboard_check(ord("D"));
 key_left = -keyboard_check(ord("A"));
 key_jump = keyboard_check_pressed(vk_space);
+key_down = keyboard_check(ord("S"));
 
 //bevægelse
 move = key_left + key_right;
@@ -69,7 +70,7 @@ else if (move = 1) image_xscale = 1;
 
 if (place_meeting(x,y+1,oCollision))
 {
-    vsp = key_jump * -jumpspeed
+    if (key_jump) vsp = -jumpspeed;
 }
 
 
