@@ -4,7 +4,7 @@
   <width>1024</width>
   <height>768</height>
   <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -187,6 +187,9 @@
     <instance objName="oCollision" x="272" y="496" name="inst_B7A94EEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCollision" x="176" y="528" name="inst_37B869C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oVaatu" x="928" y="288" name="inst_D37CBB0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlatform" x="185" y="512" name="inst_FEEC8781" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlatform" x="208" y="512" name="inst_36A86067" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlatform" x="197" y="512" name="inst_E70169E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

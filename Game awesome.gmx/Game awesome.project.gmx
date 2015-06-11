@@ -14,6 +14,7 @@
     <sprite>sprites\Cube_bullet</sprite>
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\vaatu</sprite>
+    <sprite>sprites\sPlatform</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -38,7 +39,7 @@
     <object>objects\oBold</object>
     <object>objects\oScore</object>
     <object>objects\oVaatu</object>
-    <object>objects\object7</object>
+    <object>objects\oPlatform</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
