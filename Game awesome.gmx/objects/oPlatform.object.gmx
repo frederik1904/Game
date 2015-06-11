@@ -51,7 +51,7 @@
             <kind>1</kind>
             <string>if (instance_exists(oCube_man))
 {
-    if (round(oCube_man.y + (oCube_man.sprite_height/2)) &gt; y) || (oCube_man.key_down) mask_index = -1;
+    if (round(oCube_man.y + (oCube_man.sprite_height/2)) &gt; y-7) || (oCube_man.key_down) mask_index = -1;
     else mask_index = sPlatform
 }
 </string>
