@@ -177,7 +177,7 @@ if (key_shoot = 1)
 key_hook = mouse_check_button_pressed(mb_middle);
 
 if (key_hook = 1)
-    {
+{
         if (instance_number(oHook) &lt; 1)
             {
                 if (image_xscale = 1) hook = instance_create(x + 13,y + 7,oHook);        
@@ -195,7 +195,7 @@ if (key_hook = 1)
         hook.speed = 11;
         hook.image_angle = vinkeld
      }
-     }
+}
 </string>
           </argument>
         </arguments>
