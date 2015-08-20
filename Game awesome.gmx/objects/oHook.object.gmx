@@ -52,6 +52,8 @@
             <string>if (place_meeting(x,y,oCollision))
     {
         speed = 0; oCube_man.hooked = true;
+        if (instance_exists(oHookColider) &lt; 1) instance_create(x,y,oHookColider);
+    
     }
     
 

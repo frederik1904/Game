@@ -17,6 +17,7 @@
     <sprite>sprites\sPlatform</sprite>
     <sprite>sprites\sHook</sprite>
     <sprite>sprites\sHookchain</sprite>
+    <sprite>sprites\sHookColider</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -43,6 +44,7 @@
     <object>objects\oVaatu</object>
     <object>objects\oPlatform</object>
     <object>objects\oHook</object>
+    <object>objects\oHookColider</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
